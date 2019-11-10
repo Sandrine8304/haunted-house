@@ -1,4 +1,5 @@
 var level = 1;
+var power;
 var ghostsArray = [];
 var yellowGhost = new YellowGhost();
 var redGhost2 = new RedGhost();
@@ -26,6 +27,7 @@ var myGameArea = {
     level = 1;
     init();
     hideWin();
+    powerStart();
   },
   clear: function() {
    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -42,7 +44,7 @@ var myGameArea = {
     hideKey();
   },
   checkWin: function() {
-    if (level === 5) {
+    if (level === power+1) {
       this.clear();
       clearInterval(this.interval);
       console.log("Congratulations!!! You Win!!!");
@@ -99,8 +101,13 @@ function init() {
   player.posInitial();
   for (let i=0 ; i<7 ; i++) {
     ghostsArray[i].posInitial();
-  }
-    
+  }    
+}
+
+function powerStart () {
+  let powerBtn = document.querySelector(".power input");
+  power = Number(powerBtn.value);
+  console.log(power);
 }
 
 function displayKey() {
