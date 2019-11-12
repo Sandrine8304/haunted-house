@@ -67,6 +67,7 @@ span {
 }
 
 label {
+    display: inline-block;
     font-family: 'Creepster', cursive;
     font-size: 15px;
     background-color: red; 
