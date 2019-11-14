@@ -1,3 +1,5 @@
+
+//Déclaration des variables
 var level = 1;
 var power;
 var ghostsArray = [];
@@ -56,7 +58,7 @@ var myGameArea = {
 };
 
 
-//mouvement du player avec les fleches
+//Mouvement du player avec les flèches
 document.onkeydown = function(e) { 
   switch (e.keyCode) {
     case 38: // up arrow
@@ -79,12 +81,13 @@ document.onkeydown = function(e) {
 };
 
 
+//Vitesse du player à 0 si touche pas enfoncée
 document.onkeyup = function(e) {
   player.speedX = 0;
   player.speedY = 0;
 };
 
-
+//Boucle pour créer les 7 fantômes
 for (let i=0 ; i<7 ; i++) {  
   if (i === 0) ghostsArray[i] = yellowGhost;
   if (i === 1) ghostsArray[i] = blueGhost1;
@@ -95,7 +98,7 @@ for (let i=0 ; i<7 ; i++) {
   if (i === 6) ghostsArray[i] = pumpkin;
 }  
 
-
+//Fonction pour réinitialiser les paramètres: key, player et ghosts
 function init() {
   key.randomPos();
   player.posInitial();
@@ -104,12 +107,14 @@ function init() {
   }    
 }
 
+//Fonction pour définir le nniveau de difficulté du jeu
 function powerStart () {
   let powerBtn = document.querySelector(".power input");
   power = Number(powerBtn.value);
   console.log(power);
 }
 
+//Fonction pour afficher commentaire sur le nombre de clés gagnées
 function displayKey() {
   var keyToDisplay1 = document.querySelector(".key1");
   var keyToDisplay2 = document.querySelector(".key2");
@@ -128,6 +133,7 @@ function displayKey() {
   if (level === 7) keyToDisplay7.classList.remove('display-none');
 }
 
+//Fonction pour cacher les commentaires sur le nombre de clés gagnées
 function hideKey() {
   var tabKeys = [...document.querySelectorAll(".key")];
   for (let i=0 ; i<level-1 ; i++) {
@@ -135,7 +141,7 @@ function hideKey() {
   }
 }
 
-
+// Afficher le gif quand joueur gagne
 function displayWin() {
   let plateauJeu = document.querySelector(".myCanvas");
   let gifWin = document.querySelector(".win");
@@ -143,20 +149,21 @@ function displayWin() {
   gifWin.classList.remove("display-none");
 }
 
-
+// Cacher le gif et re-afficher le canvas
 function hideWin() {
   let gifWin = document.querySelector(".win");
   gifWin.classList.add("display-none");
   document.querySelector(".myCanvas").classList.remove("display-none");
 }
 
+// Pour dessiner les ghosts en fonction du niveau
 function drawGhost() {
   for (let i=0 ; i<level ; i++) {
     ghostsArray[i].draw(); 
   }
 }
 
-
+// Pour mettre à jour le jeu
 function updateGameArea() {
   myGameArea.clear();
   player.newPos();

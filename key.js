@@ -27,7 +27,7 @@ class Key {
     //   setInterval(draw, 2000);
     // }
 
-    left() {
+      left() {
         return this.x;
       }
       right() {
