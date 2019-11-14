@@ -16,10 +16,15 @@ Ghosts.js : contains the code for the creation of the ghosts (thanks to a class)
 
 
 2-HTML
+
 Where the canvas is defined.
 
 3-CSS
-Contains the style to apply 
+
+Contains the style to apply.
+
+![drawing alt text](https://docs.google.com/drawings/d/1_LJZQ7R3pwlYchU6IdEVf5JOcbwl1ZDaPn9eCowu1F8/edit?usp=sharing/export/png)
+
 
 
 
