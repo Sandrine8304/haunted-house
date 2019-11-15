@@ -30,7 +30,7 @@ Where the canvas is defined (width = 850px, height = 450px)
 
 Contains the style to apply.
 
-![alt text](/images/image-game.jpg)
+![alt text](/images/image-game.jpg)s
 
 
 ## Link
