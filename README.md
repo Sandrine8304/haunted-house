@@ -9,7 +9,7 @@ You lose as soon as you are touched by a ghost.
 
 ## Structure
 
-1.JavaScript
+1.**JavaScript**
 
 Main.js: contains the main variables and functions to play and update the game
 
@@ -21,19 +21,20 @@ Ghosts.js : contains the code for the creation of the ghosts (thanks to a class)
 
 
 
-2.HTML
+2.**HTML**
 
 Where the canvas is defined (width = 850px, height = 450px)
 
 
-3.CSS
+3.**CSS**
 
 Contains the style to apply.
 
-![alt text](C:\Users\33664\Dropbox\Captures d'écran\image-game.jpg)
+![drawing alt text](C:\Users\33664\Dropbox\Captures d'écran\image-game.jpg)
 
 
-
+## Link
+[haunted-game](https://sandrine8304.github.io/haunted-house/)
 
 
 
