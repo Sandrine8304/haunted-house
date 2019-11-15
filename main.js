@@ -1,6 +1,6 @@
 
 //Déclaration des variables
-var level = 1;
+var level = 1; //niveau par défaut
 var power;
 var ghostsArray = [];
 var yellowGhost = new YellowGhost();
