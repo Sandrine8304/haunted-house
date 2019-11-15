@@ -12,8 +12,11 @@ You lose as soon as you are touched by a ghost.
 1-JavaScript
 
 Main.js: contains the main variables and functions to play and update the game
+
 Key.js: contains the code for the creation of the key (thanks to a class)
+
 Player.js : contains the code for the creation of the player (thanks to a class)
+
 Ghosts.js : contains the code for the creation of the ghosts (thanks to a class)
 
 
