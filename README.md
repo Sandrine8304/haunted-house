@@ -14,11 +14,11 @@ You lose as soon as you are touched by a ghost.
 
 Main.js: contains the main variables and functions to play and update the game
 
-Key.js: contains the code for the creation of the key (thanks to a class). The key is randomly displayed on the screen in every new game (and steps within a game). 
+Key.js: contains the code for the creation of the key (thanks to a class). The key is randomly displayed on the screen in every new game (and step within a game). 
 
-Player.js : contains the code for the creation of the player (thanks to a class). The player's position is always the same for every new game (and steps within a game).
+Player.js : contains the code for the creation of the player (thanks to a class). The player's position is always the same for every new game (and step within a game).
 
-Ghosts.js : contains the code for the creation of the ghosts (thanks to a class). The number of ghosts depends on the level of the game. The position of each ghost is renewed for any new step and/ or game.
+Ghosts.js : contains the code for the creation of the ghosts (thanks to a class). The number of ghosts depends on the level of the game. The position of each ghost is renewed for every new step and/ or game.
 
 
 **2. HTML**
