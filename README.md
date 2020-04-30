@@ -7,7 +7,6 @@ For the level 7, there are 7 steps (1 ghost for the 1st step to 7 ghosts for the
 You win if you achieve to get the right number of keys according to the level.
 You lose as soon as you are touched by a ghost.
 
-
 ## Structure
 
 **1. JavaScript**
