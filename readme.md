@@ -1,10 +1,10 @@
-# haunted-house
+# The Haunted House
 
 ## Aim of the game
 The aim is to avoid the ghost(s) and collect the key randomly displayed on the screen.
 There are 7 levels. For the 1st level, there is only 1 ghost. For the 2nd level, there are 2 steps: 1 ghost for the first step and 2 ghosts for the 2nd steps.
-For the level 7, there are 7 steps (1 ghost for the 1st step and 7 ghosts for the 7th step).
-You win if you achieve to get the right number of key according to the level.
+For the level 7, there are 7 steps (1 ghost for the 1st step to 7 ghosts for the 7th step).
+You win if you achieve to get the right number of keys according to the level.
 You lose as soon as you are touched by a ghost.
 
 ## Structure
@@ -30,7 +30,7 @@ Where the canvas is defined (width = 850px, height = 450px)
 
 Contains the style to apply.
 
-![alt text](/images/image-game.jpg)s
+![alt text](/images/image-game.jpg)
 
 
 ## Link
