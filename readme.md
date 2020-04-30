@@ -31,7 +31,7 @@ Where the canvas is defined (width = 850px, height = 450px)
 
 Contains the style to apply.
 
-![drawing alt text](C:\Users\33664\Dropbox\Captures d'écran\image-game.jpg)
+![drawing alt text](/images/image-game.jpg)
 
 
 ## Link
